@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding:0;
+    border:border-box;
+}
+body{
+    height:100vh;
+    width:100vw;
+    background:linear-gradient(to top,#353333,#91534b);
+}
+.heading{
+    height:75px;
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    font-size: 75px;
+    font-family: fantasy;
+    text-decoration:underline;
+    color:white;
+}
+
+.boxn{
+    height:100px;
+    width:100%;
+    display:flex;
+    justify-content:space-evenly;
+    color:antiquewhite;
+    font-family:cursive;
+    font-size:20px;
+    align-items:end;
+}
+.box1{
+    display:flex;
+    justify-content:baseline;
+}
+.box1a{
+    height:200px;
+    width:1050px;
+    display:flex;
+    justify-content: right;
+}
+#box11{
+    height:200px;
+    width:200px;
+    border:4px solid aliceblue;
+    border-radius:4px;
+}
+
+#box12{
+    height:200px;
+    width:200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:aliceblue;
+}
+#box13{
+    height:200px;
+    width:200px;
+    border:4px solid aliceblue;
+    border-radius:4px;
+}
+
+.box2{
+    height:150px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+.box1b{
+    height:200px;
+    width:400px;
+    text-align: center;
+}
+
+#box21{
+    height:150px;
+    width:150px;
+    border:2px solid white;
+    border-radius:25%;
+    background-image: url("https://m.media-amazon.com/images/I/51Zv1ZT2otL._SX679_.jpg");
+    background-size: cover;
+}
+#box22{
+    height:150px;
+    width:150px;
+    border:2px solid white;
+    border-radius:25%;
+    background-image:url("https://www.tradeindia.com/_next/image/?url=https%3A%2F%2Ftiimg.tistatic.com%2Ffp%2F1%2F007%2F591%2Frust-resistant-waterproof-and-eco-friendly-400-gsm-brown-craft-paper-sheet-459.jpg&w=384&q=15") ;
+    background-size: cover;
+}
+#box23{
+    height:150px;
+    width:150px;
+    border:2px solid white;
+    border-radius:25%;
+    background-image: url("https://previews.123rf.com/images/phonlamaiphoto/phonlamaiphoto1610/phonlamaiphoto161003104/64750041-brown-stone-background-with-rough-texture.jpg");
+    background-size: cover;
+}
+
+#es{
+    height:100%;
+    width:50px;
+}
+#phead{
+    color:white;
+    font-size:50px;
+    text-decoration: underline;
+    font-family:cursive;
+}
+#user,#comp{
+    color:white;
+    font-size:45px;
+}
+
+#box21:hover,#box22:hover,#box23:hover{
+    height:175px;
+    width:175px;
+}
+#res{
+    margin-top:25px;
+    height:100px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#res a{
+    font-size:20px;
+    text-decoration: none;
+    color:white;
+}
+#boxnn{
+    height:75px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#boxnn a{
+    color:white;
+    font-size: 50px;
+    font-family: cursive;
+    visibility:hidden;
+}
